@@ -1,0 +1,96 @@
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Environment variables / secrets
+.env
+.env.*
+!*.env.example
+
+# Testing / type checking / linting caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# ---------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---------------------------------------------------------------
+# Data science: data, models, experiment outputs
+# ---------------------------------------------------------------
+# Datasets (download them instead of committing them)
+data/
+datasets/
+
+# Trained models / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.pkl
+*.joblib
+
+# Experiment tracking
+mlruns/
+wandb/
+lightning_logs/
+runs/
+
+# Large binary / archive files
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ---------------------------------------------------------------
+# IDEs / editors
+# ---------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---------------------------------------------------------------
+# Operating systems
+# ---------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
