@@ -51,8 +51,10 @@ ipython_config.py
 # Data science: data, models, experiment outputs
 # ---------------------------------------------------------------
 # Datasets (download them instead of committing them)
-data/
 datasets/
+data/*
+!data/chess/
+!data/chess/*
 
 # Trained models / checkpoints
 *.pt
