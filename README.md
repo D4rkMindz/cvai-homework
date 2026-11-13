@@ -28,6 +28,7 @@ The topic will be in one of these areas:
 .
 ├── docs/
 │   └── 01_brainstorming.md   # Candidate topics and comparison
+│   └── 02_project-idea.md    # General idea for the CVAI homework
 └── README.md
 ```
 
